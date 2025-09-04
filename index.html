@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project Management Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+    <div class="quiz-container">
+        <div id="start-screen">
+            <h1>Project Management Quiz</h1>
+            <label for="time-input">⏰ Set Time (minutes):</label>
+            <input type="number" id="time-input" min="1" max="60" value="5" />
+            <br><br>
+            <button id="randomize-btn">Randomize Questions</button>
+            <button id="start-btn">Start Quiz</button>
+        </div>
+<h1 class="Created">
+    Created & Coded by: 
+    <a href="https://github.com/Zipone34" target="_blank">Zipone34</a>
+</h1>
+
+        <div id="quiz-screen" style="display: none;">
+            <div id="timer">Time Left: <span id="time">05:00</span></div>
+            <form id="quizForm"></form>
+            <div id="result"></div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
